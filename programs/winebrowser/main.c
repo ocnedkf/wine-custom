@@ -116,7 +116,7 @@ static int open_http_url( const WCHAR *url )
 {
     static const WCHAR defaultbrowsers[] =
         L"xdg-open\0"
-        "/data/data/com.winlator/files/imagefs/usr/bin/open\0"
+        "/data/data/com.termux/files/usr/glibc/bin/open\0"
         "firefox\0"
         "konqueror\0"
         "mozilla\0"
